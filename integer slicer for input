@@ -1,5 +1,14 @@
-#This only seems to work with dates beginning 0 on the day section, if you havbe a date beginning with an int in the day then  you need to reduce the slice numbers
-date = int(input("enter date (ddmmYYYY): "))
+#input the date
+date = int(input("enter date ddmmyyyy: "))
 #conv to str to slice
-year_code = str(date)[3:5]
+year_code = str(date)[4:6]
 print(year_code)
+#convert string  to int to enable calc
+year_int = int(year_code)
+print(year_int)
+#Boolean comparitor
+if  year_int == 18 :
+    print("1800s")
+else:
+    print ("not 1800s")
+#this is not working with dates beginning on day 0  like 01, 02, 03  etc
