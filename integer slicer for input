@@ -1,0 +1,4 @@
+date = int(input("enter date: "))
+#conv to str to slice
+year_code = str(date)[0:2]
+print(year_code)
