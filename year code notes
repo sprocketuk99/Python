@@ -53,3 +53,6 @@ If you can divide a Gregorian year by 4, it’s a leap year, unless it’s divis
 5 = Friday
 6 = Saturday
 
+To help avoid communication mistakes, the International Organization for Standardization (ISO) developed ISO 8601. This standard specifies that all dates should be written in order of most-to-least-significant data. This means the format is year, month, day, hour, minute, and second:
+
+YYYY-MM-DD HH:MM:S
