@@ -1,0 +1,55 @@
+Algorithm
+(Year Code + Month Code + Century Code + Date Number - Leap Year Code) mod 7
+
+Year code:-
+
+YY is the last two digits of the year. For the year 1879, it’s 79.
+
+First, divide YY by 4 and discard the remainder: 79 div 4 = 19.
+print (int(79/4)  for example 
+
+Then add 19 back into the YY number, which is 79 in this case, resulting in 98.
+
+The next step is: 98 mod 7.
+PRINT(98%7) IN PYTHON
+
+“Mod” means divide the number and keep only the remainder. 98 / 7 = 14, and the remainder is 0, so 0 is our Year Code for 1879.
+
+Month codes
+January = 0
+February = 3
+March = 3
+April = 6
+May = 1
+June = 4
+July = 6
+August = 2
+September = 5
+October = 0
+November = 3
+December = 5
+
+Century codes
+1800s = 2
+1900s = 0
+2000s = 6
+
+If you can divide a Gregorian year by 4, it’s a leap year, unless it’s divisible by 100. But it is a leap year if it’s divisible by 400.
+(this needs booleans)
+
+1992 is a leap year because you can divide it by four.
+1900 is not a leap year because you can divide it by 100.
+2000 is a leap year because you can divide it by 400.
+
+***leap year code is ewither 0 or 1***
+
+
+(Year Code + Month Code + Century Code + Date Number - Leap Year Code) mod 7
+0 = Sunday
+1 = Monday
+2 = Tuesday
+3 = Wednesday
+4 = Thursday
+5 = Friday
+6 = Saturday
+
