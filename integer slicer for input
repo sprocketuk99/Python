@@ -1,5 +1,5 @@
 #input the date
-date = int(input("enter date ddmmyyyy: "))
+date = int(input("enter date YYYYMMdd: "))
 #conv to str to slice
 year_code = str(date)[4:6]
 print(year_code)
